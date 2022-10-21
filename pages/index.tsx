@@ -20,7 +20,8 @@ const Home: NextPage<{ articles: Article[]; article: Article[] }> = ({
   const sourceMp4Ref = useRef<HTMLSourceElement>(null);
   const sourceWebmRef = useRef<HTMLSourceElement>(null);
   useEffect(() => {
-    if (!sourceMp4Ref.current || !sourceWebmRef.current) return;
+    if (!sourceMp4Ref.current || !sourceWebmRef.current || !videoRef.current)
+      return;
     const lazyLoaded =
       sourceMp4Ref.current.src === sourceMp4Ref.current.dataset.src;
     if (lazyLoaded) return;
@@ -28,8 +29,7 @@ const Home: NextPage<{ articles: Article[]; article: Article[] }> = ({
     sourceMp4Ref.current.src = sourceMp4Ref.current.dataset.src ?? "";
     sourceWebmRef.current.src = sourceWebmRef.current.dataset.src ?? "";
 
-    videoRef.current?.load();
-    videoRef.current?.classList.add();
+    videoRef.current.load();
   }, []);
 
   return (
@@ -64,13 +64,13 @@ const Home: NextPage<{ articles: Article[]; article: Article[] }> = ({
       >
         <source
           ref={sourceMp4Ref}
-          data-src="/background.webm"
-          type="video/webm"
+          data-src="/background.mp4"
+          type="video/mp4"
         />
         <source
           ref={sourceWebmRef}
-          data-src="/background.mp4"
-          type="video/mp4"
+          data-src="/background.webm"
+          type="video/webm"
         />
       </video>
 
