@@ -1,7 +1,7 @@
 import type { GetStaticPaths, GetStaticProps, NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import styles from "../styles/Home.module.css";
 import { MarkdownDocument } from "../components/MarkdownDocument";
 import articles from "../data/articles.json";
@@ -16,18 +16,39 @@ const Home: NextPage<{ articles: Article[]; article: Article[] }> = ({
   articles,
   article,
 }) => {
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const sourceMp4Ref = useRef<HTMLSourceElement>(null);
+  const sourceWebmRef = useRef<HTMLSourceElement>(null);
+  useEffect(() => {
+    if (!sourceMp4Ref.current || !sourceWebmRef.current) return;
+    const lazyLoaded =
+      sourceMp4Ref.current.src === sourceMp4Ref.current.dataset.src;
+    if (lazyLoaded) return;
+
+    sourceMp4Ref.current.src = sourceMp4Ref.current.dataset.src ?? "";
+    sourceWebmRef.current.src = sourceWebmRef.current.dataset.src ?? "";
+
+    videoRef.current?.load();
+    videoRef.current?.classList.add();
+  }, []);
+
   return (
     <div className={styles.container}>
       <Head>
         <title>Channel Positivity</title>
-        {/* <meta name="description" content="Channel Positivity relaxing music" /> */}
+        <meta
+          name="description"
+          content="Channel Positivity is here to bring original experiences to YouTube to help you develop spiritually and channel your positivity."
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <video
+        ref={videoRef}
         autoPlay
         loop
         muted
+        playsInline
         style={{
           position: "fixed",
           left: 0,
@@ -41,7 +62,16 @@ const Home: NextPage<{ articles: Article[]; article: Article[] }> = ({
           zIndex: 1,
         }}
       >
-        <source src="/background.mp4" type="video/mp4" />
+        <source
+          ref={sourceMp4Ref}
+          data-src="/background.webm"
+          type="video/webm"
+        />
+        <source
+          ref={sourceWebmRef}
+          data-src="/background.mp4"
+          type="video/mp4"
+        />
       </video>
 
       <main className={styles.main}>
@@ -60,8 +90,8 @@ const Home: NextPage<{ articles: Article[]; article: Article[] }> = ({
         <div
           style={{
             position: "absolute",
-            bottom: "2rem",
-            right: "2rem",
+            bottom: "4rem",
+            right: "4rem",
           }}
         >
           <a

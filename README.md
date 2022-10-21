@@ -1,3 +1,10 @@
+TODO:
+
+// Reduce video size - convert to webm
+// Lazy load video
+
+- SEO Foundation
+
 - Articles
 - Routing
 - Article index
