@@ -1,15 +1,60 @@
-TODO:
+# TODO
 
-// Reduce video size - convert to webm
-// Lazy load video
+High level:
 
-- SEO Foundation
+- How to easily add images to posts? Start simple, just add to /images/xyz.png
+- Need to schedule 10 articles ideally (1 per month)
+- Need a way for users to subscribe to a mailing list
+- How will I add music? How will I find time to do all this stuff?
+- Record time spent
+- Basic application - google oauth login to record meditation streaks? Or a node application?
 
-- Articles
-- Routing
-- Article index
-- Sidebar with related posts?
+Pilot:
+
+- Create one article, see how this process goes
+- Add SEO
+- Create 4 more articles if this seems good
+- Publish/schedule these
+- Monitor users (without a cookie banner?) to see if people are engaged with the content (bounce rate, etc.)
+- From here, consider adding "sign up for mailing list" (wisdom to your inbox)
+
+---
+
+SEO:
+
+- Meta data
+- Do a report
+- Links
 - Sitemap
+
+Related posts:
+
+- Tags, how do we link them though?
+
+Tags:
+
+- Decide what tags will exist and how to categories content
+
+Home page:
+
+- Latest articles
+- ?
+
+Article view page:
+
+- Display article content
+- Images - convenient way to display and host them when creating articles
+- How to crop and optimise images?
+
+Article list page:
+
+- List articles with title, header image and description
+- Pagination (render each page individually)
+
+Articles:
+
+- Create blog content
+- Where to get images? AI
 
 ---
 

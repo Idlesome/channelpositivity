@@ -1,39 +1,16 @@
-import type { GetStaticPaths, GetStaticProps, NextPage } from "next";
+import { CoverImage } from "components/CoverImage";
+import { Footer, Header } from "components/layout";
+import type { GetStaticProps, NextPage } from "next";
 import Head from "next/head";
-import Image from "next/image";
-import React, { useEffect, useRef } from "react";
-import styles from "../styles/Home.module.css";
-import { MarkdownDocument } from "../components/MarkdownDocument";
-import articles from "../data/articles.json";
+import { StaticImageData } from "next/image";
+import React from "react";
+import articles from "../data/articles/meditation";
 
-interface Article {
-  title: string;
-  markdown: string;
-  slug: string;
-}
-
-const Home: NextPage<{ articles: Article[]; article: Article[] }> = ({
-  articles,
-  article,
-}) => {
-  const videoRef = useRef<HTMLVideoElement>(null);
-  const sourceMp4Ref = useRef<HTMLSourceElement>(null);
-  const sourceWebmRef = useRef<HTMLSourceElement>(null);
-  useEffect(() => {
-    if (!sourceMp4Ref.current || !sourceWebmRef.current || !videoRef.current)
-      return;
-    const lazyLoaded =
-      sourceMp4Ref.current.src === sourceMp4Ref.current.dataset.src;
-    if (lazyLoaded) return;
-
-    sourceMp4Ref.current.src = sourceMp4Ref.current.dataset.src ?? "";
-    sourceWebmRef.current.src = sourceWebmRef.current.dataset.src ?? "";
-
-    videoRef.current.load();
-  }, []);
-
+const Home: NextPage<{
+  articles: Article<StaticImageData>[];
+}> = ({ articles }) => {
   return (
-    <div className={styles.container}>
+    <div className="min-h-screen flex flex-col">
       <Head>
         <title>Channel Positivity</title>
         <meta
@@ -43,99 +20,29 @@ const Home: NextPage<{ articles: Article[]; article: Article[] }> = ({
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <video
-        ref={videoRef}
-        autoPlay
-        loop
-        muted
-        playsInline
-        style={{
-          position: "fixed",
-          left: 0,
-          right: 0,
-          top: 0,
-          bottom: 0,
-          width: "177.77777778vh",
-          minWidth: "100%",
-          height: "100%",
-          minHeight: "56.25vw",
-          zIndex: 1,
-        }}
-      >
-        <source
-          ref={sourceMp4Ref}
-          data-src="/background.mp4"
-          type="video/mp4"
-        />
-        <source
-          ref={sourceWebmRef}
-          data-src="/background.webm"
-          type="video/webm"
-        />
-      </video>
+      <Header />
 
-      <main className={styles.main}>
-        <div
-          style={{ boxShadow: "0 2px 14px rgba(0,0,0,0.4)", height: "64px" }}
-        >
-          <Image
-            src="/logo.png"
-            alt="Channel Positivity Logo"
-            width={64}
-            height={64}
-          />
-        </div>
-        <br />
-        <h1 className={styles.title}>Coming Soon...</h1>
-        <div
-          style={{
-            position: "absolute",
-            bottom: "4rem",
-            right: "4rem",
-          }}
-        >
-          <a
-            href="https://www.youtube.com/c/ChannelPositivity"
-            rel="noreferrer"
-            target="_blank"
-          >
-            YouTube
-          </a>
-          &nbsp; &nbsp;
-          <a
-            href="https://open.spotify.com/artist/2LFhC8vqTukDcbxa3xRJnh"
-            rel="noreferrer"
-            target="_blank"
-          >
-            Spotify
-          </a>
-        </div>
-
-        {/* {articles.map((article, index) => (
-          <React.Fragment key={index}>
-            <h2>{article.title}</h2>
-            <MarkdownDocument markdown={article.markdown} />
-          </React.Fragment>
-        ))} */}
+      <main className="prose prose-stone m-auto flex-grow">
+        {articles.map((article, index) => (
+          <div key={index} className="mb-8">
+            <a href={`/articles/${article.slug}`}>
+              <CoverImage image={article.images.cover} />
+              <h2>{article.title}</h2>
+            </a>
+            <em>{article.excerpt}</em>
+          </div>
+        ))}
       </main>
+
+      <Footer />
     </div>
   );
 };
 
-export const getStaticProps: GetStaticProps = async ({ params }) => {
-  if (!params || !params.id) {
-    return {
-      props: {
-        articles,
-      },
-    };
-  }
-
-  const article = articles.find(({ slug }) => slug === params.id);
-
+export const getStaticProps: GetStaticProps = async () => {
   return {
     props: {
-      article,
+      articles,
     },
   };
 };
