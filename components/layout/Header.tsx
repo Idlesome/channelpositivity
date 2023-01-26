@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import logo from "components/images/logo.png";
+// import logo from "components/images/logo.png";
+import ExportedImage from "next-image-export-optimizer";
 
 export const Header = () => (
   <header className="prose prose-stone m-auto">
@@ -8,9 +9,9 @@ export const Header = () => (
       href="https://channelpositivity.com"
       className="flex items-center py-4 md:px-0 justify-center md:justify-start no-underline"
     >
-      <Image
+      <ExportedImage
         className="my-0"
-        src={logo}
+        src="/images/logo.png"
         alt="Channel Positivity Logo"
         width={32}
         height={32}

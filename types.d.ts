@@ -16,7 +16,7 @@ interface Article<ImageType> {
   category: string[];
   images: {
     cover: {
-      src: ImageType;
+      src: string;
       alt: string;
     };
   };

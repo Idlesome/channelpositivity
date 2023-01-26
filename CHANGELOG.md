@@ -1,3 +1,7 @@
+# 0.4.0
+
+- Attempt to fix optimised images
+
 # 0.3.0
 
 - First blog article, blog index and blog view

@@ -58,6 +58,25 @@ Articles:
 
 ---
 
+Disallow using robots.txt
+/cdn-cgi/ also can cause issues with various web crawlers.
+
+Search engine crawlers can encounter errors when crawling these endpoints and — though these errors do not impact site rankings — they may surface in your webmaster dashboard.
+
+SEO and other web crawlers may also mistakenly crawl these endpoints, thinking that they are part of your site’s content.
+
+As a best practice, update your robots.txt file to include Disallow: /cdn-cgi/.
+
+---
+
+# Scripts
+
+- `npm run serve:prod` - serve "out" folder in prod mode. To emulate static file production env
+
+There appears to be no way to export a static site with images unless you import them within the files that use them. This means you can't generate a site from a list of articles for example.
+
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
