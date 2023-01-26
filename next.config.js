@@ -10,9 +10,9 @@ const prodConfigOverrides = development
       env: {
         nextImageExportOptimizer_imageFolderPath: "public/images",
         nextImageExportOptimizer_exportFolderPath: "out",
-        nextImageExportOptimizer_quality: 75,
+        nextImageExportOptimizer_quality: 90,
         nextImageExportOptimizer_storePicturesInWEBP: true,
-        nextImageExportOptimizer_exportFolderPath: "nextImageExportOptimizer",
+        nextImageExportOptimizer_exportFolderPath: "_optimised",
 
         // If you do not want to use blurry placeholder images, then you can set
         // nextImageExportOptimizer_generateAndUseBlurImages to false and pass
