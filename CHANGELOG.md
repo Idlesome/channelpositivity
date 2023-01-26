@@ -1,3 +1,7 @@
+# 0.4.2
+
+- Fix config for optimised images, goodbye yarn
+
 # 0.4.1
 
 - Use sharp@0.31.1
