@@ -1,3 +1,7 @@
+# 0.5.0
+
+- First article reviewed and updated, first draft
+
 # 0.4.2
 
 - Fix config for optimised images, goodbye yarn

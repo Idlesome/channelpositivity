@@ -17,6 +17,7 @@ Pilot:
 - Publish/schedule these
 - Monitor users (without a cookie banner?) to see if people are engaged with the content (bounce rate, etc.)
 - From here, consider adding "sign up for mailing list" (wisdom to your inbox)
+- Add category and date published with title on article (ArticleMeta component)
 
 ---
 

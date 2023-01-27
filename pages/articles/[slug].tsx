@@ -4,13 +4,10 @@ import React from "react";
 import { MarkdownDocument } from "components/MarkdownDocument";
 import articles from "data/articles/meditation";
 import { CoverImage } from "components/CoverImage";
-import { StaticImageData } from "next/image";
 import { Footer } from "components/layout/Footer";
 import { Header } from "components/layout/Header";
 
-const ArticlePage: NextPage<{ article: Article<StaticImageData> }> = ({
-  article,
-}) => {
+const ArticlePage: NextPage<{ article: Article }> = ({ article }) => {
   return (
     <div>
       <Head>
@@ -21,8 +18,8 @@ const ArticlePage: NextPage<{ article: Article<StaticImageData> }> = ({
 
       <Header />
 
-      <main className="prose prose-stone m-auto">
-        <CoverImage image={article.images.cover} />
+      <main className="prose prose-stone prose-blockquote:text-2xl prose-blockquote:font-bold prose-blockquote:text-slate-600 m-auto">
+        <CoverImage image={article.images.cover} className="mt-0" />
         <article className="px-4 md:px-0">
           <h1 className="text-center md:text-left">{article.title}</h1>
           <MarkdownDocument markdown={article.markdown} />

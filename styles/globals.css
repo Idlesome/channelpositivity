@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+@media (min-width: 768px) {
+  .width-65ch {
+    width: 65ch;
+  }
+}
+
+.prose blockquote p:before {
+  content: "";
+}
+.prose blockquote p:after {
+  content: "";
+}
+
 /* html,
 body {
   padding: 0;

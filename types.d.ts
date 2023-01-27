@@ -7,7 +7,13 @@ interface ArticleMetaData {
 
 type ImageFileExtension = ".png" | ".jpg";
 
-interface Article<ImageType> {
+type CoverImage = {
+  src: `${string}${ImageFileExtension}`;
+  alt: string;
+  color: string;
+};
+
+interface Article {
   title: string;
   markdown: string;
   slug: string;
@@ -15,9 +21,6 @@ interface Article<ImageType> {
   excerpt: string;
   category: string[];
   images: {
-    cover: {
-      src: string;
-      alt: string;
-    };
+    cover: CoverImage;
   };
 }

@@ -2,12 +2,11 @@ import { CoverImage } from "components/CoverImage";
 import { Footer, Header } from "components/layout";
 import type { GetStaticProps, NextPage } from "next";
 import Head from "next/head";
-import { StaticImageData } from "next/image";
 import React from "react";
 import articles from "../data/articles/meditation";
 
 const Home: NextPage<{
-  articles: Article<StaticImageData>[];
+  articles: Article[];
 }> = ({ articles }) => {
   return (
     <div className="min-h-screen flex flex-col">
@@ -22,14 +21,16 @@ const Home: NextPage<{
 
       <Header />
 
-      <main className="prose prose-stone m-auto flex-grow">
+      <main className="prose prose-stone prose-headings:mt-4 prose-headings:mb-2 m-auto flex-grow">
         {articles.map((article, index) => (
           <div key={index} className="mb-8">
             <a href={`/articles/${article.slug}`}>
-              <CoverImage image={article.images.cover} />
-              <h2>{article.title}</h2>
+              <CoverImage image={article.images.cover} className="my-0" />
+              <h2 className="px-4 md:px-0">{article.title}</h2>
             </a>
-            <em>{article.excerpt}</em>
+            <div className="px-4 md:px-0">
+              <em>{article.excerpt}</em>
+            </div>
           </div>
         ))}
       </main>

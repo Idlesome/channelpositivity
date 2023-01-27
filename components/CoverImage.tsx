@@ -1,18 +1,19 @@
 import React from "react";
-// import Image, { StaticImageData } from "next/image";
 import ExportedImage from "next-image-export-optimizer";
 
 type Props = {
-  image: { src: string; alt: string };
+  image: CoverImage;
+  className?: string;
 };
 
-export const CoverImage = ({ image }: Props) => (
+export const CoverImage = ({ image, className = "" }: Props) => (
   <ExportedImage
-    className="object-cover h-56 md:h-80 mt-0"
+    className={`object-cover h-56 md:h-80 ${className}`}
     src={`/images/${image.src}`}
     alt={image.alt}
     width="642"
     height="642"
+    style={{ backgroundColor: image.color }}
     // quality={90}
   />
 );
