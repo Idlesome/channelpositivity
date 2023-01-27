@@ -14,9 +14,7 @@ export const Header = () => (
         width={32}
         height={32}
       />
-      <span className="px-4" style={{ fontFamily: "Skia" }}>
-        Channel Positivity
-      </span>
+      <span className="px-4 brand-font">Channel Positivity</span>
     </a>
   </header>
 );

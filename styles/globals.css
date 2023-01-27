@@ -8,11 +8,18 @@
   }
 }
 
+/**
+ * Remove quotes from block quote
+ **/
 .prose blockquote p:before {
   content: "";
 }
 .prose blockquote p:after {
   content: "";
+}
+
+.brand-font {
+  font-family: "Skia", Mulish, Avenir, Georgia, sans-serif;
 }
 
 /* html,
