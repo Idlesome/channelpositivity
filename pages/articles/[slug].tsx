@@ -8,10 +8,11 @@ import { Footer } from "components/layout/Footer";
 import { Header } from "components/layout/Header";
 
 const ArticlePage: NextPage<{ article: Article }> = ({ article }) => {
+  const title = article.title + " - Channel Positivity";
   return (
     <div>
       <Head>
-        <title>{article.title} - Channel Positivity</title>
+        <title>{title}</title>
         <meta name="description" content={article.meta.description} />
         <link rel="icon" href="/favicon.ico" />
       </Head>
