@@ -1,9 +1,8 @@
 import type { GetStaticPaths, GetStaticProps, NextPage } from "next";
 import Head from "next/head";
 import { Footer, Header } from "components/layout";
-import articles from "data/articles/meditation";
-import { CoverImage } from "components/CoverImage";
-import ArticlesList from "components/Articles/ArticlesList";
+import articles, { categories } from "data/articles/meditation";
+import { ArticlesList } from "components/Articles/ArticlesList";
 
 // do we want to filter by multiple categories at the same time? (catch all routes https://nextjs.org/docs/routing/dynamic-routes)
 const CategoryPage: NextPage<{
@@ -11,7 +10,7 @@ const CategoryPage: NextPage<{
   params: { category: string };
 }> = ({ articles, params }) => {
   const filteredArticles = articles.filter((article) =>
-    article.category.includes(params.category)
+    article.categories.includes(params.category)
   );
 
   return (
@@ -28,7 +27,7 @@ const CategoryPage: NextPage<{
       <Header />
 
       <main className="prose prose-stone prose-blockquote:text-2xl prose-blockquote:font-bold prose-blockquote:text-slate-600 m-auto">
-        <ArticlesList articles={filteredArticles}/>
+        <ArticlesList articles={filteredArticles} />
       </main>
 
       <Footer />
@@ -46,27 +45,27 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 };
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  // better way to list all categories that exist?
-  // perhaps don't use fallback: false and if no items exist within a category we display 404 not found, or create a set list of all available categories?
-  // for (let i:number = 0; i < article.category.length; i++) {
+  // const paths: { params: { category: string } }[] = [];
+
+  // There can be duplicate categories in "paths" as a result of this loop
+  // for (let article = 0; article < articles.length; article++) {
+  //   for (
+  //     let categoryIndex = 0;
+  //     categoryIndex < articles[article].category.length;
+  //     categoryIndex++
+  //   ) {
+  //     paths.push({
+  //       params: {
+  //         category: articles[article].category[categoryIndex],
+  //       },
+  //     });
+  //   }
   // }
-  // const paths = articles.map((article) => ({
-  //     params: { category: article.category[0] },
-  //     }
-  // ));
 
-  const paths: { params: { category: string } }[] = [];
-  // Categories: ["meditation", "running", "pro"] (short for procrastination)
-
-  for (let article: number = 0; article < articles.length; article++) {
-    for (let i = 0; i < articles[article].category.length; i++) {
-      paths.push({
-        params: {
-          category: articles[article].category[i],
-        },
-      });
-    }
-  }
+  // Using database of existing categories which we will list in a menu
+  const paths = categories.map((category) => ({
+    params: { category: category },
+  }));
 
   return { paths, fallback: false };
 };

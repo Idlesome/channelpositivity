@@ -1,5 +1,4 @@
-import ArticlesList from "components/Articles/ArticlesList";
-import { CoverImage } from "components/CoverImage";
+import { ArticlesList } from "components/Articles/ArticlesList";
 import { Footer, Header } from "components/layout";
 import type { GetStaticProps, NextPage } from "next";
 import Head from "next/head";
@@ -23,7 +22,7 @@ const Home: NextPage<{
       <Header />
 
       <main className="prose prose-stone prose-headings:mt-4 prose-headings:mb-2 m-auto flex-grow">
-        <ArticlesList articles={articles}/>
+        <ArticlesList articles={articles} />
       </main>
 
       <Footer />

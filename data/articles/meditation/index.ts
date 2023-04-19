@@ -13,7 +13,7 @@ const articles: Article[] = [
       },
     },
     slug: "meditation-the-key-to-overcoming-procrastination",
-    category: ["meditation", "pro"],
+    categories: ["meditation", "pro"],
     excerpt: "Unlock the power of meditation and conquer procrastination",
     meta: {
       title: "Meditation: The Key To Overcoming Procrastination",
@@ -31,7 +31,7 @@ const articles: Article[] = [
       },
     },
     slug: "Running-the-key-to-overcoming-procrastination",
-    category: ["running", "pro"],
+    categories: ["running", "pro"],
     excerpt: "Unlock the power of running and conquer procrastination",
     meta: {
       title: "Running: The Key To Overcoming Procrastination",
@@ -39,5 +39,6 @@ const articles: Article[] = [
     },
   },
 ];
+export const categories: string[] = ["meditation", "running", "pro"];
 
 export default articles;
