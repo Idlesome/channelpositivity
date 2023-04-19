@@ -3,7 +3,7 @@ import { CoverImage } from "components/CoverImage";
 type Props = {
   article: Article;
 };
-const ArticlesItem = ({ article }: Props) => {
+export const ArticlesItem = ({ article }: Props) => {
   return (
     <>
       <a href={`/articles/${article.slug}`}>
@@ -16,4 +16,3 @@ const ArticlesItem = ({ article }: Props) => {
     </>
   );
 };
-export default ArticlesItem;

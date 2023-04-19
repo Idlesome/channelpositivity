@@ -1,19 +1,16 @@
-import ArticlesItem from "./ArticlesItem";
+import { ArticlesItem } from "./ArticlesItem";
 
 type Props = {
-    articles: Article[];
-  };
-const ArticlesList =({ articles }: Props) => {
-
-    return (
-        <>
-        {articles.map((article, index) => (
-            <div key={index} className="mb-8">
-            <ArticlesItem article={article} key={index} />
-            </div>
-          ))}
+  articles: Article[];
+};
+export const ArticlesList = ({ articles }: Props) => {
+  return (
+    <>
+      {articles.map((article, index) => (
+        <div key={index} className="mb-8">
+          <ArticlesItem article={article} key={index} />
+        </div>
+      ))}
     </>
-    )
-}
-
-export default ArticlesList
+  );
+};
