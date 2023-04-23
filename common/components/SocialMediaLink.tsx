@@ -6,12 +6,7 @@ type Props = {
 };
 
 export const SocialMediaLink = ({ href, text }: Props) => (
-    <a
-    // className="hover:text-rose-700"
-    href={href}
-    rel="noreferrer"
-    target="_blank"
-  >
+  <a href={href} rel="noreferrer" target="_blank">
     {text}
   </a>
 );

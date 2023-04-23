@@ -39,6 +39,5 @@ const articles: Article[] = [
     },
   },
 ];
-export const categories: string[] = ["meditation", "running", "pro"];
 
 export default articles;

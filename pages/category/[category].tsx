@@ -1,10 +1,10 @@
 import type { GetStaticPaths, GetStaticProps, NextPage } from "next";
 import Head from "next/head";
-import { Footer, Header } from "components/layout";
-import articles, { categories } from "data/articles/meditation";
-import { ArticlesList } from "components/Articles/ArticlesList";
+import articles from "data/articles/meditation";
+import { getCategories } from "common/selectors/categories";
+import { ArticlesList } from "common/components/Articles/ArticlesList";
+import { Footer, Header } from "common/components/layout";
 
-// do we want to filter by multiple categories at the same time? (catch all routes https://nextjs.org/docs/routing/dynamic-routes)
 const CategoryPage: NextPage<{
   articles: Article[];
   params: { category: string };
@@ -45,24 +45,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 };
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  // const paths: { params: { category: string } }[] = [];
-
-  // There can be duplicate categories in "paths" as a result of this loop
-  // for (let article = 0; article < articles.length; article++) {
-  //   for (
-  //     let categoryIndex = 0;
-  //     categoryIndex < articles[article].category.length;
-  //     categoryIndex++
-  //   ) {
-  //     paths.push({
-  //       params: {
-  //         category: articles[article].category[categoryIndex],
-  //       },
-  //     });
-  //   }
-  // }
-
-  // Using database of existing categories which we will list in a menu
+  const categories = getCategories();
   const paths = categories.map((category) => ({
     params: { category: category },
   }));

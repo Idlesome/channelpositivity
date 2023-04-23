@@ -1,9 +1,9 @@
-import { ArticlesList } from "components/Articles/ArticlesList";
-import { Footer, Header } from "components/layout";
 import type { GetStaticProps, NextPage } from "next";
 import Head from "next/head";
 import React from "react";
 import articles from "../data/articles/meditation";
+import { Footer, Header } from "common/components/layout";
+import { ArticlesList } from "common/components/Articles/ArticlesList";
 
 const Home: NextPage<{
   articles: Article[];
