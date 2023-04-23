@@ -1,6 +1,6 @@
 import React from "react";
 import ExportedImage from "next-image-export-optimizer";
-import { HamburgerMenu } from "./HamburgerMenu/HamburgerMenu";
+// import { HamburgerMenu } from "./HamburgerMenu/HamburgerMenu";
 
 export const Header = () => {
   return (
@@ -19,7 +19,7 @@ export const Header = () => {
           />
           <span className="px-4 brand-font">Channel Positivity</span>
         </a>
-        <HamburgerMenu />
+        {/* <HamburgerMenu /> */}
       </div>
     </header>
   );
