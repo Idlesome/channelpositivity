@@ -1,11 +1,10 @@
 import type { GetStaticPaths, GetStaticProps, NextPage } from "next";
 import Head from "next/head";
 import React from "react";
-import { MarkdownDocument } from "components/MarkdownDocument";
 import articles from "data/articles/meditation";
-import { CoverImage } from "components/CoverImage";
-import { Footer } from "components/layout/Footer";
-import { Header } from "components/layout/Header";
+import { Footer, Header } from "common/components/layout";
+import { CoverImage } from "common/components/CoverImage";
+import { MarkdownDocument } from "common/components/MarkdownDocument";
 
 const ArticlePage: NextPage<{ article: Article }> = ({ article }) => {
   const title = article.title + " - Channel Positivity";

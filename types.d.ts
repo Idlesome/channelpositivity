@@ -19,7 +19,7 @@ interface Article {
   slug: string;
   meta: ArticleMetaData;
   excerpt: string;
-  category: string[];
+  categories: string[];
   images: {
     cover: CoverImage;
   };
