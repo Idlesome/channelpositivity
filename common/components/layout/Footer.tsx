@@ -6,7 +6,7 @@ export const Footer = () => (
     <div className="flex">
       <SocialMediaLink
         href="https://www.youtube.com/c/ChannelPositivity"
-        text="Youtube"
+        text="YouTube"
       />
       &nbsp; &nbsp;
       <SocialMediaLink

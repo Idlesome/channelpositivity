@@ -1,5 +1,5 @@
 import { StaticImageData } from "next/image";
-import meditation_the_key_to_overcoming_procrastination from "./markdown/001_meditation_the_key_to_overcoming_procrastination.md";
+import meditation_the_key_to_overcoming_procrastination from "./001_meditation_the_key_to_overcoming_procrastination.md";
 
 const articles: Article[] = [
   {

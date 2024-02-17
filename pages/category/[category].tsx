@@ -1,6 +1,6 @@
 import type { GetStaticPaths, GetStaticProps, NextPage } from "next";
 import Head from "next/head";
-import articles from "data/articles/meditation";
+import articles from "data/articles/markdown";
 import { getCategories } from "common/selectors/categories";
 import { ArticlesList } from "common/components/Articles/ArticlesList";
 import { Footer, Header } from "common/components/layout";

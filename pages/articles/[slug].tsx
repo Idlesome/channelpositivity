@@ -1,7 +1,7 @@
 import type { GetStaticPaths, GetStaticProps, NextPage } from "next";
 import Head from "next/head";
 import React from "react";
-import articles from "data/articles/meditation";
+import articles from "data/articles/markdown/";
 import { Footer, Header } from "common/components/layout";
 import { CoverImage } from "common/components/CoverImage";
 import { MarkdownDocument } from "common/components/MarkdownDocument";

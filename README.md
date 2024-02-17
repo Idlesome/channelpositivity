@@ -1,6 +1,16 @@
 # TODO
 
+- Link at bottom to next page (automatically?)
+- Email sign up - what's the plan for this? 8 week meditation course?
+
+
 - See [trello](https://trello.com/b/Mwr0nSgP/channel-positivity-kanban)
+
+# Images
+
+Images referenced as `mountain_temple.jpg` in an article will point to `public/mountain_temple.jpg`. Images in this public folder will be bundled and optimised during build so they can be progressively enhanced with the article. Currently this only works for the cover image, but could be extended to other images.
+
+However, non-enhanced images can still be included directly in articles in Notion.
 
 ---
 
@@ -19,8 +29,6 @@ As a best practice, update your robots.txt file to include Disallow: /cdn-cgi/.
 # Scripts
 
 - `npm run serve:prod` - serve "out" folder in prod mode. To emulate static file production env
-
-There appears to be no way to export a static site with images unless you import them within the files that use them. This means you can't generate a site from a list of articles for example.
 
 ---
 

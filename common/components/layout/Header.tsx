@@ -4,7 +4,7 @@ import ExportedImage from "next-image-export-optimizer";
 
 export const Header = () => {
   return (
-    <header className="prose prose-stone m-auto width-65ch px-3">
+    <header className="prose prose-stone m-auto width-65ch">
       <div className="flex items-center md:px-0 w-full justify-between">
         <a
           href="https://channelpositivity.com"
