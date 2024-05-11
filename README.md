@@ -3,7 +3,6 @@
 - Link at bottom to next page (automatically?)
 - Email sign up - what's the plan for this? 8 week meditation course?
 
-
 - See [trello](https://trello.com/b/Mwr0nSgP/channel-positivity-kanban)
 
 # Images
@@ -25,6 +24,30 @@ SEO and other web crawlers may also mistakenly crawl these endpoints, thinking t
 As a best practice, update your robots.txt file to include Disallow: /cdn-cgi/.
 
 ---
+
+# Local dev
+
+```bash
+npm run dev
+```
+
+# Full build and serve
+
+```bash
+npm run build:serve:prod
+```
+
+# Full build
+
+```bash
+npm run build:all
+```
+
+# Article Generation
+
+```bash
+npm run gen
+```
 
 # Scripts
 
