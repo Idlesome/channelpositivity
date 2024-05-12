@@ -1,4 +1,4 @@
-import articles from "../../data/articles/markdown_old";
+import articles from "data/articles/markdown";
 
 export const getCategories = () => {
   let set: Set<string> = new Set([]);
