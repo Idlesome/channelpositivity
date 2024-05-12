@@ -3,9 +3,8 @@ import React from "react";
 export const Subscribe = () => (
   <div className="width-65ch items-center">
     <p className="text-center">
-      Did this article help you? Subscribe to get our best insights on
-      meditation. We promise we will keep your data safe and send you high
-      quality content! 🙏
+      Did this help? Subscribe to get our best insights on meditation. We
+      promise we will keep your data safe and send you high quality content! 🙏
     </p>
     <iframe
       className="m-auto"
