@@ -98,7 +98,7 @@ Whatever you think is important this week might not be so important next week, a
 Our idea of time flows linearly, past > present > future. An audio waveform is a great depiction of this; vibrations over time. In the image below, the black line represents now, and the left is the past, the right the future.
 
 
-![Screenshot_2024-05-12_123703.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/3568bf79-8005-488d-be8d-a545a32553ce/f17a4134-0fa5-4b54-bdc1-69c702723108/Screenshot_2024-05-12_123703.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240512%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240512T142954Z&X-Amz-Expires=3600&X-Amz-Signature=066d956d846be044f6dc78e545534ffa89ae8c8618138c50498181daa3e5504d&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Audio waveform representing time](/images/articles/there-is-only-now/audio-waveform-representing-time.png)
 
 
 This way of looking at time implies the past is something that always exists and the future is something that is predetermined. However, Alan Watts suggests that the past doesn’t exist at all and that the future never will exist. A better illustration might be more like this:

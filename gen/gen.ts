@@ -1,5 +1,6 @@
+import { createWriteStream } from "fs";
 import path from "path";
-
+import { Readable } from "stream";
 const { Client } = require("@notionhq/client");
 const { NotionToMarkdown } = require("notion-to-md");
 const fs = require("fs");
@@ -67,6 +68,9 @@ n2m.setCustomTransformer("embed", async (block) => {
   }
   return `<iframe data-src="${embed?.url}" style="width:100%;height:400px;"></iframe>`;
 });
+n2m.setCustomTransformer("image", async (block) => {
+  return `![${block.image.caption[0].plain_text}](${block.image.file.url})`;
+});
 
 function nthIndex(str: string, pat, n) {
   var L = str.length,
@@ -76,6 +80,20 @@ function nthIndex(str: string, pat, n) {
     if (i < 0) return str.length;
   }
   return i;
+}
+
+async function downloadImageAndSaveAsync(url: string, output_location: string) {
+  const response: any = await fetch(url);
+
+  const output_dir = output_location.split("/").slice(0, -1).join("/");
+  await fs.mkdirSync("public" + output_dir, {
+    recursive: true,
+  });
+
+  const readableStream = Readable.fromWeb(response.body);
+
+  const fileWriteStream = createWriteStream("public/" + output_location);
+  readableStream.pipe(fileWriteStream);
 }
 
 (async () => {
@@ -90,7 +108,32 @@ function nthIndex(str: string, pat, n) {
 
   const slugs: string[] = [];
   for (const page of pages) {
-    const mdBlocks: any[] = await n2m.pageToMarkdown(page.id);
+    const mdBlocks: any[] = (await n2m.pageToMarkdown(page.id)).map((block) => {
+      if (block.type === "image") {
+        const caption = block.parent.slice(2).split("]")[0];
+        const imageFileExtension = block.parent.includes(".png")
+          ? ".png"
+          : block.parent.includes(".jpg")
+            ? ".jpg"
+            : null;
+        if (!imageFileExtension) {
+          console.warn(
+            "Unsupported image type for image block: " + block.parent
+          );
+        }
+        const filename = titleToSlug(caption) + imageFileExtension;
+        const localUrl = `/images/articles/${titleToSlug(page.child_page.title)}/${filename}`;
+        const originalUrl = block.parent.split("(")[1].split(")")[0];
+        downloadImageAndSaveAsync(originalUrl, localUrl);
+        console.log(localUrl);
+
+        return {
+          ...block,
+          parent: `![${caption}](${localUrl})`,
+        };
+      }
+      return block;
+    });
     const jsonConfigBlock = mdBlocks.shift();
     if (jsonConfigBlock.type !== "code") {
       throw new Error("Missing config block for " + page.child_page.title);

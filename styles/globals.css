@@ -17,6 +17,10 @@
 .prose blockquote p:after {
   content: "";
 }
+.prose p > img {
+  margin-left:auto;
+  margin-right:auto;
+}
 
 /* html,
 body {
