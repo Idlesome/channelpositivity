@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from "react";
 import Image from "next/image";
 import styles from "./ComingSoon.module.css";
 import Head from "next/head";
+import { PageHead } from "../layout/PageHead";
 
 export function ComingSoon() {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -22,14 +23,10 @@ export function ComingSoon() {
 
   return (
     <div className={styles.container}>
-      <Head>
-        <title>Channel Positivity</title>
-        <meta
-          name="description"
-          content="Channel Positivity is here to bring original experiences to YouTube to help you develop spiritually and channel your positivity."
-        />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <PageHead
+        title="Channel Positivity"
+        description="Channel Positivity is here to bring original experiences to YouTube to help you develop spiritually and channel your positivity."
+      />
       <video
         ref={videoRef}
         autoPlay

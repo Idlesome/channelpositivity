@@ -1,9 +1,9 @@
 import type { GetStaticPaths, GetStaticProps, NextPage } from "next";
-import Head from "next/head";
 import articles from "data/articles/markdown";
 import { getCategories } from "common/selectors/categories";
 import { ArticlesList } from "common/components/Articles/ArticlesList";
 import { Footer, Header } from "common/components/layout";
+import { PageHead } from "common/components/layout/PageHead";
 
 const CategoryPage: NextPage<{
   articles: Article[];
@@ -15,14 +15,10 @@ const CategoryPage: NextPage<{
 
   return (
     <div>
-      <Head>
-        <title>Categories</title>
-        <meta
-          name="description"
-          content="Channel Positivity is here to bring original experiences to YouTube to help you develop spiritually and channel your positivity."
-        />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <PageHead
+        title="Categories"
+        description="Channel Positivity is here to bring original experiences to YouTube to help you develop spiritually and channel your positivity."
+      />
 
       <Header />
 
