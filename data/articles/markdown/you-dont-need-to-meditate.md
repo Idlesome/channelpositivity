@@ -32,7 +32,7 @@ No matter how good you are at meditation, if you don’t find a way to master yo
 While there are resources that talk about bringing “mindfulness” into everyday life, becoming aware of your breathing or other sensations does not seem to be the answer to this puzzle. In fact, people with anxiety will find these “mindfulness” techniques make their symptoms worse. I can personally say I’ve experienced a lot of anxiety in my life and focusing on physical sensations or my breathing only intensifies a panic attack and increases the feeling of disassociation.
 
 
-I thought I understood what it meant to value inner peace, but for a long time I felt something big was missing. Meditation was a temporary relief, mindfulness a chore, Buddhism merely a philosophy.
+I thought I understood how to achieve inner peace, but for a long time I felt something big was missing. Meditation was a temporary relief, mindfulness a chore, Buddhism merely a philosophy.
 
 
 While I understood much of this in depth, I found there was too much information and one part of the puzzle would always contradict another. How can something that should be so simple appear so complicated?
@@ -56,7 +56,7 @@ This is pre-occupied with sensations; it doesn’t dig deep enough to give us re
 So what are these techniques really getting at, and why are they taught in this way? Part of the issue is that the problem they are trying to solve is itself contradictory and difficult to explain. But the methods are easy to explain. So we end up with teachers who explain all method, and no purpose.
 
 
-But it turns out, you don’t need the method, only the purpose. You can achieve the same thing without making yourself sit down and “not think” every day. Actually, you need to think to get the transformation. This is we spend years meditating and get nowhere, we approach meditation like a weight-loss pill for stress and it’s much easier to use a daily “hack” than try to understand the cause of the problem.
+But it turns out, you don’t need the method, only the purpose. You can achieve the same thing without making yourself sit down and “not think” every day. Actually, you need to think to get the transformation. It’s in this way that we could spend years meditating and get nowhere; we approach meditation like a pill for stress and it’s much easier to use a daily “hack” than try to understand the cause of the problem.
 
 
 While you can definitely reduce stress from practicing relaxation and mind calming techniques every day (we don’t need studies to know that!), as soon as you’re done you re-enter the storm that is life and start stressing again. You don’t get lasting transformation, just a window of peace - and that’s only if you’re good at meditation.
@@ -68,13 +68,17 @@ The true process is much deeper and much more transformational, and it’s also 
 Our modern society is overwhelmed with information, living through a digital world, and when we get burnt out, we turn to the latest trick for fixing stress which is usually behind a paywall: meditation. As I will explain, this commercial meditation no longer means meditation in it’s original meaning, just in the same way that mindfulness today means “being aware of your surroundings”, when it’s original translation comes from the word “vipassana” - better translated as “insight”.
 
 
-It’s in this exact way that we’ve become pre-occupied with ideas like “mindfulness meditation” when what we really want is “insight meditation”.
+It’s in this exact way that we’ve become pre-occupied with ideas like “mindfulness meditation” when what we really want is “insight meditation”. In the end, you won’t need any meditation because you’ll find out how to remove the source of the suffering rather than just treating the symptom.
 
 
-That’s why this book is dedicated to cutting through the noise and confusion and getting right to the core fundamentals of **true** meditation, in a sensible way.
+> Buddhas - who are supposed to have attained everything - are invariably shown in some sort of meditation posture. Why should they meditate anymore? Because that just happens to be the way that a Buddha sits when he sits. When he sits, he sits. When he walks, he walks. He’s not going anywhere. He’s just going for a walk because he digs it.  
+> Alan Watts
 
 
-You will be able to fully understand and apply these fundamentals to your life, without being overwhelmed with vague instructions or bored with repetitive tricks that “will one day work”. This is a practical, down to earth approach to what meditation is supposed to achieve.
+That’s why this book is dedicated to cutting through the noise and confusion and getting right to the core fundamentals of **true** meditation, in a sensible way
+
+
+You will be able to fully understand and apply these fundamentals to your life, without being overwhelmed with vague instructions or bored with repetitive tricks that will one day work. This is a practical, down to earth approach to what meditation is supposed to achieve.
 
 
 You won’t need to “meditate” in the modern typical sense at all, **all you need to is to be willing to explore concepts and ideas**.

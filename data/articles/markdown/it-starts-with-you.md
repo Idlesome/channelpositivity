@@ -1,5 +1,5 @@
 
-Studying modern Buddhism is hard work. There are so many books on the topic, it’s actually very difficult to get to the core message of Buddhism.
+Studying modern Buddhism is hard work. There are so many books on the topic, it’s actually very difficult to get to the core message of Buddhism. Even Reddit’s r/zen is a reportedly controversial and negative subreddit.
 
 
 Yet the principles and messages in Buddhism are, in their nature very minimal and intuitive. In fact, it can be communicated far more purely through art than words.
@@ -23,7 +23,7 @@ Alan Watts regularly uses art, music and poetry to help us understand the concep
 Yet his way of communicating was through writing and lectures, and as he once pointed out, Lao Tzu said “The world that can be spoken of is not the true world”, yet Lao Tzu **said** that.
 
 
-So it’s very important that we are careful with how we use words, and that we communicate the message of Buddhism without overloading it.
+So it’s very important that we remember that the real insight comes from personal experience, not words.
 
 
 This is a key purpose of Zen; which is known for is subtractive and minimalist style. Rather than studying meditation in elaborate detail, the Zen style is supposed to be much closer to the way the Buddha taught. Remove the unnecessary detail and focus on the fundamentals.
@@ -54,7 +54,7 @@ He encouraged students to challenge his teaching, because he knew his students w
 This is what the Buddha meant when he said people should learn Buddhism through “direct knowledge”. Because he knew he can’t explain your reality to you any more than he could look with your eyes.
 
 
-In the modern world, we have become so absorbed with the technicalities of Buddhism, we’ve mistaken the method for the result. Just in the same way that we mistake money for tangible wealth.
+In the modern world, we have become so absorbed with the technicalities of Buddhism, we mistake the method for the result.
 
 
 If you meditate, do you know why you meditate? What do you want to get out of it exactly? Is it something you do because you think it will one day make sense? But if you’re not certain why you’re doing it, how can you know it will get you what you want?
@@ -78,7 +78,7 @@ The reason it’s so hard to explain is because it’s not words, and it’s ver
 The only thing anyone else can do for you, is to do exactly what the Buddha did: point it out. You just have to start that conversation. Once it starts, you can start to explore your own experience and understand yourself - and therefore the world - in a new way. 
 
 
-Alan Watts called this “cultivating a great doubt”, it’s a rational curiosity to want to understand fundamental truth about existence and consciousness.
+Alan Watts called this “cultivating a great doubt”, it’s a rational curiosity to want to understand the fundamental truth about existence and consciousness.
 
 
 There are many ways to explore this, and it starts with simple questions and curiosity which we will cover in the following chapters.

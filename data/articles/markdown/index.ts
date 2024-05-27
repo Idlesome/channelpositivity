@@ -1,15 +1,14 @@
 import you_dont_need_to_meditate from "./you-dont-need-to-meditate.md";
 import it_starts_with_you from "./it-starts-with-you.md";
-import the_purpose_of_meditation from "./the-purpose-of-meditation.md";
 import there_is_only_now from "./there-is-only-now.md";
+import the_secret_of_zen from "./the-secret-of-zen.md";
+import the_purpose_of_meditation from "./the-purpose-of-meditation.md";
+import overcoming_worry from "./overcoming-worry.md";
 import dont_force_life from "./dont-force-life.md";
 import you_cant_completely_control_your_mind from "./you-cant-completely-control-your-mind.md";
 import you_cant_completely_control_suffering from "./you-cant-completely-control-suffering.md";
 import emotional_attachment_causes_psychological_suffering from "./emotional-attachment-causes-psychological-suffering.md";
 import you_cant_eat_money from "./you-cant-eat-money.md";
-import ownership_is_a_fallacy from "./ownership-is-a-fallacy.md";
-import adversity_is_what_makes_life_fun from "./adversity-is-what-makes-life-fun.md";
-import inner_peace_is_more_important_than_anything_else from "./inner-peace-is-more-important-than-anything-else.md";
 const articles: Article[] = [
   {
     title: "You Don’t Need To Meditate",
@@ -36,12 +35,12 @@ const articles: Article[] = [
       slug: "it-starts-with-you",
       markdown: "__MARKDOWN_IMPORT__",
       excerpt:
-        "Studying modern Buddhism is hard work. There are so many books on the topic, it’s actually very difficult to get to the core message of Buddhism....",
+        "Studying modern Buddhism is hard work. There are so many books on the topic, it’s actually very difficult to get to the core message of Buddhism. Even Reddit’s r/zen is a reportedly...",
       categories: ["meditation"],
       meta: {
         title: "It Starts With You",
         description:
-          "Studying modern Buddhism is hard work. There are so many books on the topic, it’s actually very difficult to get to the core message of Buddhism....",
+          "Studying modern Buddhism is hard work. There are so many books on the topic, it’s actually very difficult to get to the core message of Buddhism. Even Reddit’s r/zen is a reportedly...",
       },
       images: {
         cover: {
@@ -58,12 +57,12 @@ const articles: Article[] = [
     slug: "it-starts-with-you",
     markdown: it_starts_with_you,
     excerpt:
-      "Studying modern Buddhism is hard work. There are so many books on the topic, it’s actually very difficult to get to the core message of Buddhism....",
+      "Studying modern Buddhism is hard work. There are so many books on the topic, it’s actually very difficult to get to the core message of Buddhism. Even Reddit’s r/zen is a reportedly...",
     categories: ["meditation"],
     meta: {
       title: "It Starts With You",
       description:
-        "Studying modern Buddhism is hard work. There are so many books on the topic, it’s actually very difficult to get to the core message of Buddhism....",
+        "Studying modern Buddhism is hard work. There are so many books on the topic, it’s actually very difficult to get to the core message of Buddhism. Even Reddit’s r/zen is a reportedly...",
     },
     images: {
       cover: {
@@ -74,16 +73,16 @@ const articles: Article[] = [
     },
     publish_date: "2024-05-11",
     next_article: {
-      title: "The Purpose of Meditation",
-      slug: "the-purpose-of-meditation",
+      title: "There is Only Now",
+      slug: "there-is-only-now",
       markdown: "__MARKDOWN_IMPORT__",
       excerpt:
-        "The _intended_ purpose of meditation, the result it’s supposed to achieve...",
+        "Understanding your relationship with time is one of the most important and liberating concepts you can explore. There’s a lot that we take for granted about time which, when understood, can instantly...",
       categories: ["meditation"],
       meta: {
-        title: "The Purpose of Meditation",
+        title: "There is Only Now",
         description:
-          "The _intended_ purpose of meditation, the result it’s supposed to achieve...",
+          "Understanding your relationship with time is one of the most important and liberating concepts you can explore. There’s a lot that we take for granted about time which, when understood, can instantly...",
       },
       images: {
         cover: {
@@ -92,7 +91,7 @@ const articles: Article[] = [
           color: "#4F3A63",
         },
       },
-      publish_date: "",
+      publish_date: "2024-05-11",
     },
   },
   {
@@ -116,12 +115,17 @@ const articles: Article[] = [
     },
     publish_date: "2024-05-11",
     next_article: {
-      title: "Don’t Force Life",
-      slug: "dont-force-life",
+      title: "The Secret of Zen",
+      slug: "the-secret-of-zen",
       markdown: "__MARKDOWN_IMPORT__",
-      excerpt: "...",
+      excerpt:
+        "Zen by design is provocative. It’s intended this way to invoke a reaction or realisation from you; a moment of spontaneous enlightenment....",
       categories: ["meditation"],
-      meta: { title: "Don’t Force Life", description: "..." },
+      meta: {
+        title: "The Secret of Zen",
+        description:
+          "Zen by design is provocative. It’s intended this way to invoke a reaction or realisation from you; a moment of spontaneous enlightenment....",
+      },
       images: {
         cover: {
           src: "mountain_temple.jpg",
