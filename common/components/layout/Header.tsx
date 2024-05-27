@@ -12,7 +12,7 @@ export const Header = () => {
         >
           <ExportedImage
             className="my-0"
-            src="/images/logo.png"
+            src="/images/global/logo.png"
             alt="Channel Positivity Logo"
             width={32}
             height={32}

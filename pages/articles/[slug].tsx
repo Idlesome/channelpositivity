@@ -6,9 +6,11 @@ import { CoverImage } from "common/components/CoverImage";
 import { MarkdownDocument } from "common/components/MarkdownDocument";
 import { ChevronRight } from "common/components/Icons/ChevronRight";
 import { PageHead } from "common/components/layout/PageHead";
+import { articleIsPublished } from "common/selectors/articles";
 
 function NextArticle({ article }: { article: Article }) {
-  if (!article.next_article) return null;
+  if (!article.next_article || !articleIsPublished(article.next_article))
+    return null;
 
   return (
     <aside className="px-4 md:px-0 flex justify-center">

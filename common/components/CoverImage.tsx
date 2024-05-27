@@ -9,7 +9,7 @@ type Props = {
 export const CoverImage = ({ image, className = "" }: Props) => (
   <ExportedImage
     className={`object-cover h-56 md:h-80 ${className}`}
-    src={`/images/${image.src}`}
+    src={`/images/global/${image.src}`}
     alt={image.alt}
     width="642"
     height="642"

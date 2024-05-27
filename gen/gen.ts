@@ -1,6 +1,7 @@
 import { createWriteStream } from "fs";
 import path from "path";
 import { Readable } from "stream";
+import { articleIsPublished } from "../common/selectors/articles";
 const { Client } = require("@notionhq/client");
 const { NotionToMarkdown } = require("notion-to-md");
 const fs = require("fs");
@@ -21,12 +22,6 @@ function removeAllFilesInDir(dir) {
 function pageIsPublished(page) {
   if (!page.config.publish_date) return false;
   const publish_date = new Date(page.config.publish_date);
-  return publish_date < new Date();
-}
-
-function articleIsPublished(article) {
-  if (!article.publish_date) return false;
-  const publish_date = new Date(article.publish_date);
   return publish_date < new Date();
 }
 

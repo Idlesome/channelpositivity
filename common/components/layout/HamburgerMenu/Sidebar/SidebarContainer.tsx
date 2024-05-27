@@ -11,7 +11,7 @@ export const SidebarContainer = ({ children }: Props) => {
       <div className="flex">
         <ExportedImage
           className="my-0"
-          src="/images/logo.png"
+          src="/images/global/logo.png"
           alt="Channel Positivity Logo"
           width={42}
           height={42}
