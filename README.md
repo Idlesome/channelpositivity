@@ -1,15 +1,57 @@
-TODO:
+# TODO
 
-// Reduce video size - convert to webm
-// Lazy load video
+- Link at bottom to next page (automatically?)
+- Email sign up - what's the plan for this? 8 week meditation course?
 
-- SEO Foundation
+- See [trello](https://trello.com/b/Mwr0nSgP/channel-positivity-kanban)
 
-- Articles
-- Routing
-- Article index
-- Sidebar with related posts?
-- Sitemap
+# Images
+
+Images referenced as `mountain_temple.jpg` in an article will point to `public/mountain_temple.jpg`. Images in this public folder will be bundled and optimised during build so they can be progressively enhanced with the article. Currently this only works for the cover image, but could be extended to other images.
+
+However, non-enhanced images can still be included directly in articles in Notion.
+
+---
+
+Disallow using robots.txt
+/cdn-cgi/ also can cause issues with various web crawlers.
+
+Search engine crawlers can encounter errors when crawling these endpoints and — though these errors do not impact site rankings — they may surface in your webmaster dashboard.
+
+SEO and other web crawlers may also mistakenly crawl these endpoints, thinking that they are part of your site’s content.
+
+// Do this for the optimised images folder
+As a best practice, update your robots.txt file to include Disallow: /cdn-cgi/.
+
+---
+
+# Local dev
+
+```bash
+npm run dev
+```
+
+# Full build and serve
+
+```bash
+npm run build:serve:prod
+```
+
+# Full build
+
+```bash
+npm run build:all
+```
+
+# Article Generation
+
+```bash
+npm run gen
+```
+
+# Scripts
+
+- `npm run serve:prod` - serve "out" folder in prod mode. To emulate static file production env
 
 ---
 

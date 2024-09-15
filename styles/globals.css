@@ -1,4 +1,28 @@
-html,
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (min-width: 768px) {
+  .width-65ch {
+    width: 65ch;
+  }
+}
+
+/**
+ * Remove quotes from block quote
+ **/
+.prose blockquote p:before {
+  content: "";
+}
+.prose blockquote p:after {
+  content: "";
+}
+.prose p > img {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+/* html,
 body {
   padding: 0;
   margin: 0;
@@ -17,4 +41,4 @@ a:hover {
 
 * {
   box-sizing: border-box;
-}
+} */
