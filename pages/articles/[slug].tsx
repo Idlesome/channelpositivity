@@ -9,13 +9,19 @@ import { PageHead } from "common/components/layout/PageHead";
 import { articleIsPublished } from "common/selectors/articles";
 
 function NextArticle({ article }: { article: Article }) {
-  if (!article.next_article || !articleIsPublished(article.next_article))
-    return null;
+  if (!article.next_article) return null;
+
+  const nextArticleIsPublished = articleIsPublished(article.next_article);
 
   return (
     <aside className="px-4 md:px-0 flex justify-center">
       <a
-        href={`/articles/${article.next_article.slug}`}
+        onClick={nextArticleIsPublished ? undefined : (e) => e.preventDefault()}
+        href={
+          nextArticleIsPublished
+            ? `/articles/${article.next_article.slug}`
+            : "#"
+        }
         className="no-underline mb-8 flex flex-col bg-slate-100 p-8 rounded"
       >
         <span className="text-xs text-slate-500">Next article</span>
@@ -23,12 +29,16 @@ function NextArticle({ article }: { article: Article }) {
           {article.next_article.title}
           <ChevronRight className="inline ml-2" width="12px" height="18px" />
         </h5>
-        <blockquote
-          className="text-sm my-2 border-l-0 pl-0"
-          cite={`/articles/${article.next_article.slug}`}
-        >
-          {article.next_article.excerpt}
-        </blockquote>
+        {nextArticleIsPublished ? (
+          <blockquote
+            className="text-sm my-2 border-l-0 pl-0"
+            cite={`/articles/${article.next_article.slug}`}
+          >
+            {article.next_article.excerpt}
+          </blockquote>
+        ) : (
+          <>Coming {article.next_article.publish_date}</>
+        )}
       </a>
     </aside>
   );
