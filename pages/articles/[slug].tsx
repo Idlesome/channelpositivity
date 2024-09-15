@@ -25,9 +25,13 @@ function NextArticle({ article }: { article: Article }) {
         className="no-underline mb-8 flex flex-col bg-slate-100 p-8 rounded"
       >
         <span className="text-xs text-slate-500">Next article</span>
-        <h5 className="text-xl mb-0 underline font-normal">
+        <h5
+          className={`text-xl mb-0 ${nextArticleIsPublished ? "underline" : ""} font-normal`}
+        >
           {article.next_article.title}
-          <ChevronRight className="inline ml-2" width="12px" height="18px" />
+          {nextArticleIsPublished && (
+            <ChevronRight className="inline ml-2" width="12px" height="18px" />
+          )}
         </h5>
         {nextArticleIsPublished ? (
           <blockquote
