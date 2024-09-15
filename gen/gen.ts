@@ -197,6 +197,29 @@ async function downloadImageAndSaveAsync(url: string, output_location: string) {
     "./data/articles/markdown/index.ts",
     [importBlock, exportBlock].join("\n")
   );
+
+  fs.writeFileSync(
+    "./public/sitemap.xml",
+    `<?xml version="1.0" encoding="UTF-8" ?>
+    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+    <loc>https://channelpositivity.com</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    </url>
+    
+    ${pages.filter(pageIsPublished).map(
+      (p) =>
+        `<url>
+      <loc>https://channelpositivity.com/article/${p.slug}</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+      </url>`
+    )}
+    
+    </urlset>`
+  );
 })();
 
 export {};
