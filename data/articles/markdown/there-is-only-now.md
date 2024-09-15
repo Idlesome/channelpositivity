@@ -5,7 +5,7 @@ Understanding your relationship with time is one of the most important and liber
 Of course, we’re always busy imagining a future which never quite happens how we’d expected, or remembering a past; which is only a vague shadow of the real thing. Yet we have a strong sense that we can predict and control the future, and that our memory of the past is true and accurate.
 
 
-The reality is, memory is not completely accurate and reliable, and things never turn out exactly how we’d expect. The future and the past truly only exist in our minds as we remember or imagine them. Have you ever been so sure about a memory, only to find your memory was inaccurate or even false? Or have you ever imagined a future scenario and found the real event surprisingly different to what you’d expected?
+In reality, memory is not completely accurate and reliable, and things never turn out exactly how we’d expect. The future and the past truly only exist in our minds as we remember or imagine them. Have you ever been so sure about a memory, only to find your memory was inaccurate or even false? Or have you ever imagined a future scenario and found the real event surprisingly different to what you’d expected?
 
 
 It’s a strange thing to get your head around because we ultimately must rely on the past and future, or we’d not be able to function and interact with the world. Our understanding of life depends on the past, and our anticipation of the future (based on our memory of the past) allows us to navigate the world.
@@ -29,7 +29,7 @@ While we do need to remember things and plan ahead, it’s incredibly important 
 It’s so easy to get wrapped up in thinking of the future, we often forget about the present for days, weeks, or even a whole lifetime. If you’re not careful, this can become your self-made prison; a world where you can never enjoy today for the fear of what tomorrow may bring.
 
 
-The problem comes from believing that we need to control the future and that it’s actually possible to control the future. While we may be able to influence the future, our actual control over it is very limited. We image life like a mechanical instrument, where you operate a switch and things happen in the exact way they were programmed, when it’s a lot more like sailing a boat on a river; you can control the boat to a degree, but ultimately you are at the mercy of the river.
+The problem comes from believing that we need to control the future and that it’s actually possible to control the future. While we may be able to influence the future, our actual control over it is very limited. We imagine life like a mechanical instrument, where you operate a switch and things happen in the exact way they were programmed, when it’s a lot more like sailing a boat on a river; you can control the boat to a degree, but ultimately you are at the mercy of the river.
 
 
 At first it can feel restricting to think you’re not able to control things as much as you’d like. But accepting this reality is actually liberating. When you accept what you **can** control, you can start to focus your energy on what you **can** change and stop worrying about the things you can’t.
@@ -45,7 +45,7 @@ It’s not possible to be prepared for every scenario, and by the time it comes 
 >   
 > A week later when the horse returned with seven more wild horses, the villagers commented, “how lucky! You’ve now increased your wealth by seven times, it’s a good thing your horse ran away after all!”, again the man replied, “perhaps”.  
 >   
-> The following day, the son of the man broke his arm trying to train one of the horses. Again the villagers chimed in, “how terrible, your horse ran away; now your son is injured and cannot work!”, the man replied, “perhaps”.  
+> The following day, the son of the man broke his arm trying to train one of the horses. Again the villagers chimed in, “how terrible it was that your horse ran away; now your son is injured and cannot work!”, the man replied, “perhaps”.  
 >   
 > The next day the military came by to conscript all the young men of the village. The villagers said “what luck! Had your son not broken his arm he would be conscripted to the military, it’s a good thing your horse ran away after all!”, once again the man replied, “perhaps”.
 
@@ -89,10 +89,13 @@ This way of looking at time implies the past is something that always exists and
 Where now is the centre, emanating out, creating the past and the future as experienced only in our minds.
 
 
+Understanding all this is one thing, but actually becoming free of future and past is another challenge altogether - however it is absolutely possible and we’ll learn how to do this in the coming chapters.
+
+
 ---
 
 
-## Meditations
+## Suggested Meditations
 
 - How long is a moment?
 - Who would you be if you had amnesia and forgot all your memories?

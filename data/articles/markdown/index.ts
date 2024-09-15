@@ -3,12 +3,12 @@ import it_starts_with_you from "./it-starts-with-you.md";
 import there_is_only_now from "./there-is-only-now.md";
 import the_secret_of_zen from "./the-secret-of-zen.md";
 import the_purpose_of_meditation from "./the-purpose-of-meditation.md";
+import the_attachment_paradox from "./the-attachment-paradox.md";
 import overcoming_worry from "./overcoming-worry.md";
 import dont_force_life from "./dont-force-life.md";
 import you_cant_completely_control_your_mind from "./you-cant-completely-control-your-mind.md";
 import you_cant_completely_control_suffering from "./you-cant-completely-control-suffering.md";
 import emotional_attachment_causes_psychological_suffering from "./emotional-attachment-causes-psychological-suffering.md";
-import you_cant_eat_money from "./you-cant-eat-money.md";
 const articles: Article[] = [
   {
     title: "You Don’t Need To Meditate",
@@ -29,7 +29,7 @@ const articles: Article[] = [
         color: "#4F3A63",
       },
     },
-    publish_date: "2024-04-11",
+    publish_date: "2024-07-10",
     next_article: {
       title: "It Starts With You",
       slug: "it-starts-with-you",
@@ -44,12 +44,12 @@ const articles: Article[] = [
       },
       images: {
         cover: {
-          src: "mountain_temple.jpg",
+          src: "mountains_tapestry.jpg",
           alt: "Peaceful Mountain Temple",
           color: "#4F3A63",
         },
       },
-      publish_date: "2024-05-11",
+      publish_date: "2024-08-10",
     },
   },
   {
@@ -66,12 +66,12 @@ const articles: Article[] = [
     },
     images: {
       cover: {
-        src: "mountain_temple.jpg",
+        src: "mountains_tapestry.jpg",
         alt: "Peaceful Mountain Temple",
         color: "#4F3A63",
       },
     },
-    publish_date: "2024-05-11",
+    publish_date: "2024-08-10",
     next_article: {
       title: "There is Only Now",
       slug: "there-is-only-now",
@@ -86,12 +86,12 @@ const articles: Article[] = [
       },
       images: {
         cover: {
-          src: "mountain_temple.jpg",
+          src: "atmospheric_clock.jpg",
           alt: "Peaceful Mountain Temple",
           color: "#4F3A63",
         },
       },
-      publish_date: "2024-05-11",
+      publish_date: "2024-09-10",
     },
   },
   {
@@ -108,12 +108,12 @@ const articles: Article[] = [
     },
     images: {
       cover: {
-        src: "mountain_temple.jpg",
+        src: "atmospheric_clock.jpg",
         alt: "Peaceful Mountain Temple",
         color: "#4F3A63",
       },
     },
-    publish_date: "2024-05-11",
+    publish_date: "2024-09-10",
     next_article: {
       title: "The Secret of Zen",
       slug: "the-secret-of-zen",
@@ -133,7 +133,7 @@ const articles: Article[] = [
           color: "#4F3A63",
         },
       },
-      publish_date: "",
+      publish_date: "2024-10-10",
     },
   },
 ];

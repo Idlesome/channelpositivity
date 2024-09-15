@@ -2,7 +2,7 @@
 It’s far more important to apply the fundamentals from Buddhism to your life than to practice meditation; **one moment of understanding could be more valuable than a lifetime of daily meditation if it gives you insight into your reality**.
 
 
-This aim of this book is to be a practical, no-nonsense guide to understanding and applying these principles. It also aims to dispel misconceptions about Buddhism and explain the core concepts of it’s principles, which are often missed out or misinterpreted in modern meditation literature.
+This aim of this blog is to be a practical, no-nonsense guide to understanding and applying these principles. It also aims to dispel misconceptions about Buddhism and explain the core concepts of it’s principles, which are often missed out or misinterpreted in modern meditation literature.
 
 
 I’ll explain why so much information on Buddhism and meditation appears contradictory and confusing and hopefully provide more practical answers to questions like “why should I meditate?” - and the answer (in short) is not just to be happier or to be more relaxed, although it certainly can have that effect.
@@ -23,13 +23,13 @@ We’re also more over-stimulated, more worried about the future and more discon
 While we’re absorbed with what to cook next week, the disagreement from the other day or the best way to achieve that new goal, the world is gently flowing on as we pass it by in a completely internal state. We might not even notice the birds singing outside, the perfect stillness of the air or how lucky we are to be fed, sheltered and in good health. What is really more important? And why do we automatically focus on worrying instead of finding peace with the moment? How do we practically navigate life _without_ worrying?
 
 
-Even when we can get to the state where we’re able to be present and free from worry, the big problem that nobody seems to address is that **the worry always comes back**. No matter how much you meditate or get into a relaxed state, you’ll always have to re-enter the world where bills need to be paid and plans need to be made; and it’s in this world where we find the greatest our challenge to inner peace.
+Even when we can get to the state where we’re able to be present and free from worry, the big problem that often seems forgotten is that **the worry always comes back**. No matter how much you meditate or get into a relaxed state, you’ll always have to re-enter the world where bills need to be paid and plans need to be made; and it’s in this world where we find our greatest challenge to inner peace.
 
 
 No matter how good you are at meditation, if you don’t find a way to master your inner peace in the business of everyday life, you could spend the majority of your life in a stressed state, only to be calm for 20 minutes a day when you meditate.
 
 
-While there are resources that talk about bringing “mindfulness” into everyday life, becoming aware of your breathing or other sensations does not seem to be the answer to this puzzle. In fact, people with anxiety will find these “mindfulness” techniques make their symptoms worse. I can personally say I’ve experienced a lot of anxiety in my life and focusing on physical sensations or my breathing only intensifies a panic attack and increases the feeling of disassociation.
+While there are resources that talk about bringing “mindfulness” into everyday life, becoming aware of your breathing or other sensations does not seem to be the answer to this puzzle. In fact, people with anxiety will find these “mindfulness” techniques can actually make their symptoms worse. I can personally say I’ve experienced a lot of anxiety in my life and focusing on physical sensations or my breathing can intensify a panic attack and increase the feeling of disassociation.
 
 
 I thought I understood how to achieve inner peace, but for a long time I felt something big was missing. Meditation was a temporary relief, mindfulness a chore, Buddhism merely a philosophy.
@@ -44,22 +44,28 @@ For example, you may have heard of a method for meditation where you label your 
 This all adds up logically, only there’s something really unintuitive about it, which is not obvious at first. The focus of the whole thing is thinking, but the result should be that you end up _not_ thinking.
 
 
-While this can be useful for disciplining the mind, the focus on thinking appears to be a distraction. It’s like digging yourself out of a hole.
+While this can be useful for disciplining the mind and training an awareness of thoughts, the focus on thinking is not actually the point, it’s only the vessel. When you don’t understand the destination, you can feel like you’re digging yourself out of a hole; using thoughts to stop thinking.
 
 
 Other meditation methods say you should let your mind wander, notice when you’re thinking and then gently bring your focus back to the meditation; which may be to focus on the breath or some other sensation.
 
 
-This is pre-occupied with sensations; it doesn’t dig deep enough to give us real insight. And it doesn’t seem like this is how the Buddha would have achieved enlightenment. Even if you were an expert in being aware of the breath, this alone cannot be the fundamental wisdom that is central to Buddhism and meditation. You are not going to learn much about yourself by repeatedly forcing your mind to focus on sensation.
+If you are only pre-occupied with sensations, it will take a very long time for you to get to the real insight. Even if you were an expert in being aware of the breath, this alone is not enough to get to lasting inner peace.
 
 
 So what are these techniques really getting at, and why are they taught in this way? Part of the issue is that the problem they are trying to solve is itself contradictory and difficult to explain. But the methods are easy to explain. So we end up with teachers who explain all method, and no purpose.
 
 
-But it turns out, you don’t need the method, only the purpose. You can achieve the same thing without making yourself sit down and “not think” every day. Actually, you need to think to get the transformation. It’s in this way that we could spend years meditating and get nowhere; we approach meditation like a pill for stress and it’s much easier to use a daily “hack” than try to understand the cause of the problem.
+But it turns out, you don’t need the method, only the purpose. When a master of Zen is enlightened, he stops meditating - he doesn’t need to any more because he’s free of the problems that made him want to meditate in the first place.
 
 
-While you can definitely reduce stress from practicing relaxation and mind calming techniques every day (we don’t need studies to know that!), as soon as you’re done you re-enter the storm that is life and start stressing again. You don’t get lasting transformation, just a window of peace - and that’s only if you’re good at meditation.
+You can actually achieve the same thing without making yourself sit down and “not think” every day. Actually, you need to think to get the transformation. It’s in this way that we could spend years meditating and get nowhere; we approach meditation like a pill for stress and it’s much easier to convince yourself to use a daily “hack” than try to get down to the roots of the problem.
+
+
+While you can definitely reduce stress from practicing relaxation and mind calming techniques every day, if as soon as you’re done you re-enter the storm that is life and start stressing again, you don’t get lasting transformation, just a window of peace - and that’s only if you’re good at meditation and practice regularly.
+
+
+This is why the original translation of the word “meditation” is “the art of living” - it’s not just what you do during meditation, but how you live the rest of your life that matters; and this is the art we must master.
 
 
 The true process is much deeper and much more transformational, and it’s also much simpler, once you get your head around it.
@@ -75,10 +81,10 @@ It’s in this exact way that we’ve become pre-occupied with ideas like “min
 > Alan Watts
 
 
-That’s why this book is dedicated to cutting through the noise and confusion and getting right to the core fundamentals of **true** meditation, in a sensible way
+That’s why this book is dedicated to cutting through the noise and confusion and getting right to the core fundamentals of **true** meditation, in a sensible way.
 
 
-You will be able to fully understand and apply these fundamentals to your life, without being overwhelmed with vague instructions or bored with repetitive tricks that will one day work. This is a practical, down to earth approach to what meditation is supposed to achieve.
+You will be able to fully understand the why and how of the art of living, and apply these fundamentals to your life, without being overwhelmed with vague instructions or bored with repetitive tricks that will one day work. This is a practical, down to earth approach to what meditation is supposed to achieve.
 
 
 You won’t need to “meditate” in the modern typical sense at all, **all you need to is to be willing to explore concepts and ideas**.
