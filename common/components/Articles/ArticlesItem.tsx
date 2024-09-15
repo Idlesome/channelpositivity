@@ -7,7 +7,7 @@ export const ArticlesItem = ({ article }: Props) => {
   return (
     <>
       <a href={`/articles/${article.slug}`}>
-        <CoverImage image={article.images.cover} className="my-0" />
+        <CoverImage image={article.images.cover} className="my-0 h-64" />
         <h2 className="px-4 md:px-0">{article.title}</h2>
       </a>
       <div className="px-4 md:px-0">
