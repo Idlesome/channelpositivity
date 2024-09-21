@@ -2,7 +2,7 @@ import you_dont_need_to_meditate from "./you-dont-need-to-meditate.md";
 import it_starts_with_you from "./it-starts-with-you.md";
 import there_is_only_now from "./there-is-only-now.md";
 import the_secret_of_zen from "./the-secret-of-zen.md";
-import the_purpose_of_meditation from "./the-purpose-of-meditation.md";
+import why_you_should_meditate from "./why-you-should-meditate.md";
 import the_attachment_paradox from "./the-attachment-paradox.md";
 import overcoming_worry from "./overcoming-worry.md";
 import dont_force_life from "./dont-force-life.md";
@@ -15,12 +15,12 @@ const articles: Article[] = [
     slug: "you-dont-need-to-meditate",
     markdown: you_dont_need_to_meditate,
     excerpt:
-      "It’s far more important to apply the fundamentals from Buddhism to your life than to practice meditation; **one moment of understanding could be more valuable than a lifetime of daily meditation if...",
+      "This aim of this blog is to be a practical, no-nonsense guide to understanding and applying the fundamentals of Buddhism for greater resilience and inner peace in your life. It also aims...",
     categories: ["meditation"],
     meta: {
       title: "You Don’t Need To Meditate",
       description:
-        "It’s far more important to apply the fundamentals from Buddhism to your life than to practice meditation; **one moment of understanding could be more valuable than a lifetime of daily meditation if...",
+        "This aim of this blog is to be a practical, no-nonsense guide to understanding and applying the fundamentals of Buddhism for greater resilience and inner peace in your life. It also aims...",
     },
     images: {
       cover: {
