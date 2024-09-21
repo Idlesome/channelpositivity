@@ -2,17 +2,10 @@ import React from "react";
 
 export const Subscribe = () => (
   <div className="width-65ch items-center">
-    <p className="text-center">
-      Did this help? Subscribe to get our newest articles straight to your inbox
-      🙏
-    </p>
-    <iframe
-      className="m-auto"
-      data-src="https://embeds.beehiiv.com/9d60e703-13a0-4dcc-9b0b-ccbb4cc1ec12?slim=true"
-      data-test-id="beehiiv-embed"
-      height="52"
-      frameBorder="0"
-      scrolling="no"
-    ></iframe>
+    <script
+      async
+      data-uid="b72c4a9eaa"
+      src="https://channel-positivity.ck.page/b72c4a9eaa/index.js"
+    ></script>
   </div>
 );
