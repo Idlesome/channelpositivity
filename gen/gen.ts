@@ -209,15 +209,18 @@ async function downloadImageAndSaveAsync(url: string, output_location: string) {
     <priority>0.5</priority>
     </url>
     
-    ${pages.filter(pageIsPublished).map(
-      (p) =>
-        `
+    ${pages
+      .filter(pageIsPublished)
+      .map(
+        (p) =>
+          `
     <url>
     <loc>https://channelpositivity.com/articles/${p.slug}</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     </url>`
-    )}
+      )
+      .join("")}
     
     </urlset>`
   );
