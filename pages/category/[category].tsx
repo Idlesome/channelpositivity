@@ -1,5 +1,5 @@
 import type { GetStaticPaths, GetStaticProps, NextPage } from "next";
-import articles from "data/articles/markdown";
+import { articles } from "data/articles/markdown";
 import { getCategories } from "common/selectors/categories";
 import { ArticlesList } from "common/components/Articles/ArticlesList";
 import { Footer, Header } from "common/components/layout";

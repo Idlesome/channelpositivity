@@ -1,6 +1,5 @@
 import type { GetStaticProps, NextPage } from "next";
-import React from "react";
-import articles from "../data/articles/markdown";
+import { articles } from "../data/articles/markdown";
 import { Footer, Header } from "common/components/layout";
 import { ArticlesList } from "common/components/Articles/ArticlesList";
 import { PageHead } from "common/components/layout/PageHead";
@@ -33,13 +32,5 @@ export const getStaticProps: GetStaticProps = async () => {
     },
   };
 };
-
-// export const getStaticPaths: GetStaticPaths = async () => {
-//   const paths = articles.map((article) => ({
-//     params: { id: article.slug },
-//   }));
-
-//   return { paths, fallback: false };
-// };
 
 export default Home;

@@ -3,7 +3,7 @@ import { CoverImage } from "../CoverImage";
 type Props = {
   article: Article;
 };
-export const ArticlesItem = ({ article }: Props) => {
+export const ArticleItem = ({ article }: Props) => {
   return (
     <>
       <a href={`/articles/${article.slug}`}>

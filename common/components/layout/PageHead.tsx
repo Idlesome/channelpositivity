@@ -33,16 +33,6 @@ export const PageHead = ({
     });
     document.querySelectorAll("iframe[data-src]").forEach((element, index) => {
       (window as any).lazyLoadElements[index] = element;
-      //   const observer = new IntersectionObserver(function (entries) {
-      //     if (entries[0].isIntersecting) {
-      //       console.log("Elvis has ENTERED the building ");
-      //       (element as HTMLIFrameElement).src =
-      //         (element as HTMLIFrameElement).dataset.src ?? "";
-      //       observer.unobserve(element);
-      //     }
-      //   });
-
-      //   observer.observe(element);
     });
   }, []);
   return (

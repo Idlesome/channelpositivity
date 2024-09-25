@@ -1,7 +1,7 @@
-import articles from "data/articles/markdown";
+import { articles } from "data/articles/markdown";
 
 export const getCategories = () => {
-  let set: Set<string> = new Set([]);
+  const set: Set<string> = new Set([]);
   for (let articleIndex = 0; articleIndex < articles.length; articleIndex++) {
     for (
       let categoryIndex = 0;

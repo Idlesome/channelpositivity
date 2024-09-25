@@ -1,4 +1,4 @@
-import { ArticlesItem } from "./ArticlesItem";
+import { ArticleItem } from "./ArticleItem";
 
 type Props = {
   articles: Article[];
@@ -8,7 +8,7 @@ export const ArticlesList = ({ articles }: Props) => {
     <>
       {articles.map((article, index) => (
         <div key={index} className="mb-8">
-          <ArticlesItem article={article} key={index} />
+          <ArticleItem article={article} key={index} />
         </div>
       ))}
     </>

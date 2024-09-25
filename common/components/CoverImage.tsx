@@ -15,6 +15,5 @@ export const CoverImage = ({ image, className = "" }: Props) => (
     height="642"
     style={{ backgroundColor: image.color }}
     priority
-    // quality={90}
   />
 );

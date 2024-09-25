@@ -1,5 +1,3 @@
-import React, { Children } from "react";
-
 type Props = {
   href: string;
   text: string;

@@ -24,5 +24,6 @@ interface Article {
     cover: CoverImage;
   };
   publish_date: string;
+  published?: boolean;
   next_article?: Article | null;
 }
