@@ -17,7 +17,10 @@
     "test": "vitest run",
     "test:ui": "vitest --ui",
     "test:watch": "vitest",
-    "coverage": "vitest run --coverage"
+    "coverage": "vitest run --coverage",
+    "release:major": "changelog -M && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version major && git push origin && git push origin --tags",
+    "release:minor": "changelog -m && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version minor && git push origin && git push origin --tags",
+    "release:patch": "changelog -p && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version patch && git push origin && git push origin --tags"
   },
   "dependencies": {
     "marked": "^4.0.18",
@@ -50,6 +53,7 @@
     "eslint-plugin-testing-library": "^6.3.0",
     "eslint-plugin-vitest": "^0.5.4",
     "file-loader": "^6.2.0",
+    "generate-changelog": "^1.8.0",
     "jsdom": "^25.0.1",
     "json5": "^2.2.3",
     "next-image-export-optimizer": "1.1.2",
