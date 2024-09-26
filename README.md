@@ -1,3 +1,7 @@
+# Overview
+
+Channel Positivity is a blog website (channelpositivity.com) built with SSG in Next. One of the aims of this project was to run without a backend and to test the limitations of Next SSG. Using SSG means you can deliver the site as static assets directly to CDNs, this concept is also known as Jamstack and is often used by large blog websites and some ecommerce sites to improve time to first byte and overall speed for websites, which results in better user experience and better SEO. Serving directly from a CDN is also highly scalable and performant. This site is hosted on CloudFlare pages, which is essentially like AWS CloudFront. Pipelines are set up to run `npm run build` and then copy the `out` folder to the CDN.
+
 # TODO
 
 - Review Next Image Exporter library - patch upgrade causes a module error
