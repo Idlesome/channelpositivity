@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 
 export const Subscribe = () => (
@@ -7,6 +8,5 @@ export const Subscribe = () => (
       data-uid="b72c4a9eaa"
       src="https://channel-positivity.ck.page/b72c4a9eaa/index.js"
     ></script>
-    )
   </div>
 );
