@@ -1,9 +1,8 @@
 import { render, screen } from "@testing-library/react";
 import { ArticleItem } from "./ArticleItem";
-import "@testing-library/jest-dom/vitest";
 
 describe("<ArticleItem/>", () => {
-  it("renders without error", async () => {
+  it("renders a title and excerpt", async () => {
     render(
       <ArticleItem
         article={{
