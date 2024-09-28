@@ -6,7 +6,7 @@
     "dev": "next dev",
     "start": "next dev",
     "build:full": "npm run gen && npm run build",
-    "build": "next build && next export && next-image-export-optimizer",
+    "build": "next build && next-image-export-optimizer",
     "build:serve:prod": "npm run build && npm run serve:prod",
     "serve:prod": "npx serve -l 3001 ./out",
     "lint": "next lint",
@@ -23,15 +23,16 @@
     "release:patch": "changelog -p && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version patch"
   },
   "dependencies": {
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.5.0",
     "marked": "^4.0.18",
-    "next": "^13.1.4",
+    "next": "^14.2.13",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@notionhq/client": "^2.2.14",
     "@tailwindcss/typography": "^0.5.9",
-    "@testing-library/jest-dom": "^6.5.0",
     "@testing-library/react": "^16.0.1",
     "@types/marked": "^4.0.3",
     "@types/node": "18.0.6",
@@ -44,7 +45,7 @@
     "@vitest/ui": "^2.1.1",
     "autoprefixer": "^10.4.13",
     "eslint": "^8.57.1",
-    "eslint-config-next": "^13.1.4",
+    "eslint-config-next": "^14.2.13",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-jsx-a11y": "^6.10.0",
     "eslint-plugin-prettier": "^5.2.1",
@@ -56,7 +57,7 @@
     "generate-changelog": "^1.8.0",
     "jsdom": "^25.0.1",
     "json5": "^2.2.3",
-    "next-image-export-optimizer": "1.1.2",
+    "next-image-export-optimizer": "^1.15.1",
     "notion-to-md": "^3.1.1",
     "postcss": "^8.4.21",
     "prettier": "^3.3.3",
@@ -66,6 +67,7 @@
     "tailwindcss": "^3.2.4",
     "ts-node": "^10.9.2",
     "typescript": "4.7.4",
+    "vite-tsconfig-paths": "^5.0.1",
     "vitest": "^2.1.1"
   }
 }
