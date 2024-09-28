@@ -30,6 +30,7 @@ export default defineConfig({
         "**/{karma,rollup,webpack,vite,vitest,jest,ava,babel,nyc,cypress,tsup,build,eslint,prettier}.config.*",
         "**/vitest.{workspace,projects}.[jt]s?(on)",
         "**/.{eslint,mocha,prettier}rc.{?(c|m)js,yml}",
+        // Custom rules
         "./out/**",
         "./public/**",
         "./*.js",
@@ -38,7 +39,4 @@ export default defineConfig({
       all: true,
     },
   },
-  // resolve: {
-  //   alias: { "": resolve(__dirname) },
-  // },
 });
