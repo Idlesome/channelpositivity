@@ -42,8 +42,9 @@ function writeArticlesToMarkdownFiles(articles: Article[]) {
  */
 function writeArticlesToModule(articles: Article[]) {
   const importBlock = articles
+    .filter(articleIsPublished)
     .map(({ slug }) => slug)
-    .map((slug) => `import ${slugToFilename(slug)} from "./${slug}.md";`)
+    .map((slug) => `import ${slugToFilename(slug)} from "./${slug}.md?raw";`)
     .join("\n");
 
   const exportBlock =
