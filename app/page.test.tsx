@@ -1,10 +1,12 @@
 import { render, screen } from "@testing-library/react";
 import HomePageRoute from "./page";
+import { articles } from "data/articles/markdown";
 
 describe("<HomePageRoute/>", () => {
-  it("renders a list of articles", () => {
+  it("renders more than one article", () => {
     render(<HomePageRoute />);
 
-    expect(screen.getAllByRole("heading").length).toBeGreaterThan(0);
+    screen.getByText(articles[0].title);
+    expect(screen.getAllByRole("heading").length).toBeGreaterThan(1);
   });
 });
