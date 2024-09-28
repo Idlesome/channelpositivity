@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { ChevronRight } from "common/components/Icons/ChevronRight";
 import { articleIsPublished } from "common/selectors/articles";

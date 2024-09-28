@@ -1,27 +1,6 @@
-import you_dont_need_to_meditate from "./you-dont-need-to-meditate.md";
-import it_starts_with_you from "./it-starts-with-you.md";
-import there_is_only_now from "./there-is-only-now.md";
-import the_secret_of_zen from "./the-secret-of-zen.md";
-import why_you_should_meditate from "./why-you-should-meditate.md";
-import the_attachment_paradox from "./the-attachment-paradox.md";
-import overcoming_worry from "./overcoming-worry.md";
-import dont_force_life from "./dont-force-life.md";
-import you_cant_completely_control_your_mind from "./you-cant-completely-control-your-mind.md";
-import you_cant_completely_control_suffering from "./you-cant-completely-control-suffering.md";
-import emotional_attachment_causes_psychological_suffering from "./emotional-attachment-causes-psychological-suffering.md";
-import you_cant_eat_money from "./you-cant-eat-money.md";
-import the_effect_of_ownership_on_happiness from "./the-effect-of-ownership-on-happiness.md";
-import adversity_is_what_makes_life_fun from "./adversity-is-what-makes-life-fun.md";
-import inner_peace_is_more_important_than_anything_else from "./inner-peace-is-more-important-than-anything-else.md";
-import compassion_is_the_greatest_virtue from "./compassion-is-the-greatest-virtue.md";
-import wake_up from "./wake-up.md";
-import striving_for_happiness_makes_you_unhappy from "./striving-for-happiness-makes-you-unhappy.md";
-import practical_zen from "./practical-zen.md";
-import clearing_the_lens from "./clearing-the-lens.md";
-import you_are_what_you_think from "./you-are-what-you-think.md";
-import the_untrained_mind from "./the-untrained-mind.md";
-import why_meditation_helps_with_adhd from "./why-meditation-helps-with-adhd.md";
-import healing_the_emotional_mind from "./healing-the-emotional-mind.md";
+import you_dont_need_to_meditate from "./you-dont-need-to-meditate.md?raw";
+import it_starts_with_you from "./it-starts-with-you.md?raw";
+import there_is_only_now from "./there-is-only-now.md?raw";
 const articles: Article[] = [
   {
     slug: "you-dont-need-to-meditate",
