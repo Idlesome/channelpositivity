@@ -31,7 +31,7 @@ describe("<ArticlePage/>", () => {
     screen.getByText("Published: 2024-07-10");
   });
 
-  it("renders the next article", () => {
+  it("renders the next article section", () => {
     render(
       <ArticlePage
         article={{
