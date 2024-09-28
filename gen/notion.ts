@@ -31,7 +31,9 @@ async function getNotionBlogPages(): Promise<NotionBlock[]> {
     block_id: BLOG_BLOCK_ID,
     page_size: 100,
   });
-  return response.results.filter((block) => block.type === "child_page");
+  return response.results.filter(
+    (block: NotionBlock) => block.type === "child_page"
+  );
 }
 
 const titleToSlug = (title) =>
@@ -41,10 +43,10 @@ const titleToSlug = (title) =>
     .replaceAll("’", "")
     .toLowerCase();
 
-function nthIndex(str: string, pat, n) {
+function nthIndex(str: string, pattern: string, n: number) {
   let i = -1;
   while (n-- && i++ < str.length) {
-    i = str.indexOf(pat, i);
+    i = str.indexOf(pattern, i);
     if (i < 0) return str.length;
   }
   return i;
@@ -140,7 +142,7 @@ export async function getArticles(): Promise<Article[]> {
       return {
         slug,
         excerpt,
-        published: articleIsPublished(config),
+        published: articleIsPublished(config as Article),
         markdown: mdStringBlock.parent,
         title: pageBlock.child_page.title,
         categories: ["meditation"],
