@@ -9,7 +9,7 @@ interface ArticleMetaData {
   description: string;
 }
 
-type ImageFileExtension = ".png" | ".jpg";
+type ImageFileExtension = ".png" | ".jpg" | ".webp";
 
 type CoverImage = {
   src: `${string}${ImageFileExtension}`;
