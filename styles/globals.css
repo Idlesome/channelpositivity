@@ -18,27 +18,11 @@
   content: "";
 }
 .prose p > img {
-  margin-left:auto;
-  margin-right:auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: "Mulish", Avenir, Georgia, sans-serif;
+/* ConvertKit */
+.seva-form.formkit-form {
+  border: none !important;
 }
-
-a {
-  color: #fff;
-  text-decoration: none;
-  transition: all 0.2s ease;
-}
-a:hover {
-  text-shadow: 0 0 10px #c80102;
-  text-decoration: underline;
-}
-
-* {
-  box-sizing: border-box;
-} */
