@@ -1,3 +1,42 @@
+### 0.9.0 (2024-11-17)
+
+##### Chores
+
+*  remove retracted notion token (d490c83d)
+*  tidy up notion (e3629533)
+*  tidy up vitest.config.mjs (7a52db87)
+*  remove unused pages tailwind configuration (b8787ae5)
+*  name tests more clearly (e0da0cc1)
+*  amend changelog generation and versioning (a91852c8)
+*  added changelog generation and versioning (2a577bd7)
+*  add overview to readme (dd55008a)
+*  tidy up (a61b5086)
+*  update caniuse (3797e213)
+
+##### Bug Fixes
+
+*  convert kit form (c4094eb9)
+*  change meditation_posture.webp to png (4b4af2f6)
+*  remove (revoked) notion token (0870c112)
+*  fixed jsdom vite matchers (0060d700)
+*  render subscribe on client only (6888373d)
+*  revert condition for subscribe script (3500859d)
+*  correctly convert array to string in sitemap (680a35d3)
+*  subscribe switch to convertkit (e113b1ed)
+
+##### Other Changes
+
+*  16.11.24 (149e2d87)
+*  22.10.24 (846f5627)
+
+##### Refactors
+
+*  Next 14, use app folder, code coverage (b8232783)
+
+##### Tests
+
+*  added notion mock response (c449f492)
+
 ### 0.8.0 (2024-11-16)
 
 ##### Other Changes
