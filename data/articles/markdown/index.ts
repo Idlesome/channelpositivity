@@ -176,7 +176,7 @@ const articles: Article[] = [
       },
       images: {
         cover: {
-          src: "meditation_posture.webp",
+          src: "meditation_posture.png",
           alt: "Meditation Pose",
           color: "#b09472",
         },
@@ -199,7 +199,7 @@ const articles: Article[] = [
     },
     images: {
       cover: {
-        src: "meditation_posture.webp",
+        src: "meditation_posture.png",
         alt: "Meditation Pose",
         color: "#b09472",
       },
