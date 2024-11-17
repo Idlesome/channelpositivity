@@ -9,6 +9,7 @@ Channel Positivity is a blog website (channelpositivity.com) built with SSG in N
 - Review and improve ESLint config, upgrade ESLint
 - Upgrade to Next 14
 - Environment variable set up for Notion auth token
+- Fully switch over to auto-changelog
 - See [trello](https://trello.com/b/Mwr0nSgP/channel-positivity-kanban)
 
 # Images
