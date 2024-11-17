@@ -9,7 +9,7 @@ const { NotionToMarkdown } = require("notion-to-md");
 const BLOG_BLOCK_ID = "5c805e3b-ecd1-486d-a1e7-e142e4151020";
 
 const notion = new Client({
-  auth: "secret_2XPjroYrUEJeiF9Zurz5Pe8w2AVnv5lRvPkmQFgmkBV",
+  auth: "TOKEN_GOES_HERE",
 });
 
 export const n2m = new NotionToMarkdown({ notionClient: notion });
