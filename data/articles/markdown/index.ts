@@ -3,6 +3,7 @@ import it_starts_with_you from "./it-starts-with-you.md?raw";
 import there_is_only_now from "./there-is-only-now.md?raw";
 import the_secret_of_zen from "./the-secret-of-zen.md?raw";
 import why_you_need_to_meditate from "./why-you-need-to-meditate.md?raw";
+import the_attachment_paradox from "./the-attachment-paradox.md?raw";
 const articles: Article[] = [
   {
     slug: "you-dont-need-to-meditate",
@@ -208,9 +209,9 @@ const articles: Article[] = [
     next_article: {
       slug: "the-attachment-paradox",
       excerpt: "...",
-      published: false,
+      published: true,
       markdown:
-        '\n> "To be unattached to anything is to be truly free. The essence of mind is inherently pure and tranquil.”  \n> Platform Sutra\n\n\nAttachment = ego. Ego is created by us, thoughts are like particles; there is space between them. The mind is constantly dying and being reborn just like our cells, because we are our thoughts; conscious and sub-conscious - and we are only experiencing the next thought as it is being passed onto the next. In this way we always have the immediate opportunity for a pure lens but our conditioning (especially attachment) distracts us from it.\n\n\nAttachment is an illusion because there is nothing to be attached to. When we create emotional attachment, we assign our identity to the object of attachment and it becomes part of us. Soon your ego becomes so inflated, you become overwhelmed with the need to control all of your world which you perceive as you, which is impossible. And so you live in the paradox of attachment; no way to control it, and no way to be free of it. But the solution is simple: to remove all attachment, start again with nothing then you will be grateful and not entitled.\n\n\nEgo is the single biggest barrier to enlightenment; the more ego (attachment) you have, the harder it is to see and the harder it is to live.\n\n\nEgo is unneccessary. We all know we will die. When we really face this, we realise we are not as important as we thought, nothing matters as much as we thought. You are not the same person as you were last week and you are not the same person as you will be next week. The knowledge that life is fleeting is what makes it worth living, without the risk of loss there is no point starting. Nobody wants to play a game which has no challenge. If you could force someone to love you, it would be false and hollow, because true love is only meaningful when there is the potential for hate. \n\n',
+        '\n> "To be unattached to anything is to be truly free. The essence of mind is inherently pure and tranquil.”  \n> Platform Sutra\n\n\nOur ego is continuously created by us. Thoughts are like particles; there is space between them. The thought stream is constantly dying and being reborn - just like our cells - because we are our thoughts; conscious and sub-conscious - and we are only experiencing the current thought as it is being passed onto the next. In this way we always have the immediate opportunity to see reality for what it truly is, untainted by past experience. But our conditioning (especially attachment) shrouds it from us. That is, in any moment we can break the chain of thoughts and escape the immersion of our deeply subjective internal world.\n\n\nAttachment is an illusion, because there is nothing to be attached to. When we create emotional attachment, we assign our identity to the object of attachment and it becomes part of us. Soon your ego becomes so inflated, you become overwhelmed with the need to control all of your world which you perceive as you. It’s impossible to control the world; it’s even impossible to control yourself. And so we live in the paradox of attachment; no way to control it, and no way to be free of it. But the solution is simple: to remove all attachment, start again with nothing. From this emptiness comes gratitude, not entitlement. When we stop trying to control the world and start learning to flow with it, that’s when life truly begins.\n\n\nEgo is the single biggest barrier to enlightenment; the more ego (attachment) you have, the harder it is to see and the harder it is to live.\n\n\nEgo is unnecessary. We all know we will die. When we really face this, we realise we are not as important as we thought, nothing matters as much as we thought. You are not the same person as you were last week and you are not the same person as you will be next week. The knowledge that life is fleeting is what makes it worth living, without the risk of loss there is no point starting.\n\n\nNobody wants to play a game which has no challenge. If you could force someone to love you, it would be false and hollow, because true love is only meaningful when there is the potential for hate.\n\n',
       title: "The Attachment Paradox",
       categories: ["meditation"],
       meta: { title: "The Attachment Paradox", description: "..." },
@@ -222,6 +223,41 @@ const articles: Article[] = [
         },
       },
       publish_date: "2024-12-10",
+    },
+  },
+  {
+    slug: "the-attachment-paradox",
+    excerpt: "...",
+    published: true,
+    markdown: the_attachment_paradox,
+    title: "The Attachment Paradox",
+    categories: ["meditation"],
+    meta: { title: "The Attachment Paradox", description: "..." },
+    images: {
+      cover: {
+        src: "mountain_temple.jpg",
+        alt: "Peaceful Mountain Temple",
+        color: "#4F3A63",
+      },
+    },
+    publish_date: "2024-12-10",
+    next_article: {
+      slug: "overcoming-worry",
+      excerpt: "...",
+      published: false,
+      markdown:
+        "\n…\n\n\nUnderstanding worry is one thing, but overcoming it is something entirely different and much more challenging.\n\n\nOnce you have been caught up by too much worry, there is not much you can do to get out of it. You can end up spiralling if you’re not careful. There are only two ways to stop worry: patience and prevention.\n\n- Patience - waiting it out\n- Prevention - guard your thoughts and experiences to prevent worry from happening\n",
+      title: "Overcoming Worry",
+      categories: ["meditation"],
+      meta: { title: "Overcoming Worry", description: "..." },
+      images: {
+        cover: {
+          src: "mountain_temple.jpg",
+          alt: "Peaceful Mountain Temple",
+          color: "#4F3A63",
+        },
+      },
+      publish_date: "",
     },
   },
 ];
